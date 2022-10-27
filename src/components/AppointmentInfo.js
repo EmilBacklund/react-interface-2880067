@@ -11,16 +11,16 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
         <BiTrash />
       </button>
       <div className="flex-grow">
-        <div className="flex items-center">
-          <span className="flex-none font-medium text-2xl text-blue-500">
+        <div className="flex items-center flex-wrap justify-between gap-2 mb-2">
+          <span className="font-medium text-2xl text-blue-500">
             {appointment.bokadAv}
           </span>
-          <span className="flex-grow text-right">
+          <span className="">
             <b className="font-bold text-blue-500">Ankomst: </b>
             {appointment.bokDatum}
           </span>
         </div>
-        <div className="leading-tight flex justify-between">
+        <div className="leading-tight flex justify-between flex-wrap gap-2">
           <span>
             <b className="font-bold text-blue-500">Kommentar: </b>
             {appointment.bokningsKommentar}

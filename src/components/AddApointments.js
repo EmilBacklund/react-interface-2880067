@@ -42,7 +42,7 @@ const AddApointments = ({ onSendAppointment, lastId }) => {
       </button>
       {toggleForm && (
         <div className="border-r-2 border-b-2 border-l-2 border-light-blue-500 rounded-b-md pl-4 pr-4 pb-4">
-          <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
+          <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5 mt-2 sm:mt-0">
             <label
               htmlFor="bokadAv"
               className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"

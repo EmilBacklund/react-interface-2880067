@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App container mx-auto mt-3 font-thin">
-      <h1 className="text-5xl flex gap-5 justify-center mb-5">
+      <h1 className="text-4xl flex gap-5 justify-center mb-5 sm:text-5xl">
         <BiCalendar className="text-red-400" /> Dina bokningar
       </h1>
       <AddApointments
