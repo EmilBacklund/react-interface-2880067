@@ -11,7 +11,7 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
         <BiTrash />
       </button>
       <div className="flex-grow">
-        <div className="flex items-center flex-wrap justify-between gap-2 mb-2">
+        <div className="flex sm:items-center flex-col sm:flex-row justify-between gap-2 mb-2">
           <span className="font-medium text-2xl text-blue-500">
             {appointment.bokadAv}
           </span>
@@ -20,7 +20,7 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
             {appointment.bokDatum}
           </span>
         </div>
-        <div className="leading-tight flex justify-between flex-wrap gap-2">
+        <div className="flex-col sm:flex-row leading-tight flex justify-between  gap-2">
           <span>
             <b className="font-bold text-blue-500">Kommentar: </b>
             {appointment.bokningsKommentar}
