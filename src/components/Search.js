@@ -41,6 +41,13 @@ const DropDown = ({
           Ankomst {sortBy === "bokDatum" && <BiCheck />}
         </div>
         <div
+          onClick={() => onSortByChange("avResa")}
+          className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex justify-between cursor-pointer"
+          role="menuitem"
+        >
+          Avresa {sortBy === "avResa" && <BiCheck />}
+        </div>
+        <div
           onClick={() => onOrderByChange("asc")}
           className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 flex justify-between cursor-pointer border-gray-1 border-t-2"
           role="menuitem"
@@ -93,7 +100,7 @@ const Search = ({
               onClick={() => {
                 setToggleSort(!toggleSort);
               }}
-              className="justify-center px-4 py-2 bg-blue-400 border-2 border-blue-400 text-sm text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center"
+              className="justify-center px-4 py-2 bg-blue-400 border-2 border-blue-400 text-sm text-white hover:bg-blue-700 transition duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center"
               id="options-menu"
               aria-haspopup="true"
               aria-expanded="true"

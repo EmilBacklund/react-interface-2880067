@@ -15,11 +15,20 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
           <span className="flex-none font-medium text-2xl text-blue-500">
             {appointment.bokadAv}
           </span>
-          <span className="flex-grow text-right">{appointment.bokDatum}</span>
+          <span className="flex-grow text-right">
+            <b className="font-bold text-blue-500">Ankomst: </b>
+            {appointment.bokDatum}
+          </span>
         </div>
-        <div className="leading-tight">
-          <b className="font-bold text-blue-500">Kommentar: </b>
-          {appointment.bokningsKommentar}
+        <div className="leading-tight flex justify-between">
+          <span>
+            <b className="font-bold text-blue-500">Kommentar: </b>
+            {appointment.bokningsKommentar}
+          </span>
+          <span>
+            <b className="font-bold text-blue-500">Avresa: </b>
+            {appointment.avResa}
+          </span>
         </div>
       </div>
     </li>

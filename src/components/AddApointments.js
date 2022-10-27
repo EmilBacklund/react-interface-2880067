@@ -6,6 +6,7 @@ const AddApointments = ({ onSendAppointment, lastId }) => {
     bokadAv: "",
     bokDatum: "",
     bokTid: "",
+    avResa: "",
     bokningsKommentar: "",
   };
 
@@ -17,6 +18,7 @@ const AddApointments = ({ onSendAppointment, lastId }) => {
       id: lastId + 1,
       bokadAv: formData.bokadAv,
       bokDatum: formData.bokDatum + " " + formData.bokTid,
+      avResa: formData.avResa,
       bokningsKommentar: formData.bokningsKommentar,
     };
     onSendAppointment(appointmentInfo);
@@ -30,7 +32,7 @@ const AddApointments = ({ onSendAppointment, lastId }) => {
         onClick={() => {
           setToggleForm(!toggleForm);
         }}
-        className={`bg-blue-400 text-white px-2 py-3 w-full text-left  ${
+        className={`bg-blue-400 text-white px-2 py-3 w-full text-left transition duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2  ${
           toggleForm ? "rounded-t-md" : "rounded-md"
         }`}
       >
@@ -97,6 +99,26 @@ const AddApointments = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, bokTid: event.target.value });
                 }}
                 value={formData.bokTid}
+                className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+              />
+            </div>
+          </div>
+          <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
+            <label
+              htmlFor="avResa"
+              className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+            >
+              Avresedag
+            </label>
+            <div className="mt-1 sm:mt-0 sm:col-span-2">
+              <input
+                type="date"
+                name="avResa"
+                id="avResa"
+                onChange={(event) => {
+                  setFormData({ ...formData, avResa: event.target.value });
+                }}
+                value={formData.avResa}
                 className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
               />
             </div>

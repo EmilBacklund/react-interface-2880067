@@ -3,150 +3,175 @@
     "id": "0",
     "bokadAv": "Reggie Tupp",
     "bokningsKommentar": "It's time for this rabbit's post spaying surgery checkup",
-    "bokDatum": "2018-11-28 13:30"
+    "bokDatum": "2018-11-28 13.30",
+    "avResa": "2018-11-29"
   },
   {
     "id": "1",
     "bokadAv": "Philip Ransu",
     "bokningsKommentar": "Rio is up for his next round of vaccinations",
-    "bokDatum": "2018-11-28 10:15"
+    "bokDatum": "2018-11-28 10:15",
+    "avResa": "2018-11-30"
   },
   {
     "id": "2",
     "bokadAv": "Zachary Heilyn",
     "bokningsKommentar": "Scooter has been pawing at his ear and may have an ear infection",
-    "bokDatum": "2018-11-28 14:45"
+    "bokDatum": "2018-11-28 14:45",
+    "avResa": "2018-12-01"
   },
   {
     "id": "3",
     "bokadAv": "Krystle Valerija",
     "bokningsKommentar": "This dog is coming in for his monthly nail trim and grooming",
-    "bokDatum": "2018-11-28 16:00"
+    "bokDatum": "2018-11-28 16:00",
+    "avResa": "2018-12-02"
   },
   {
     "id": "4",
     "bokadAv": "Nicolette Bardeau",
     "bokningsKommentar": "This dog is coming in for his annual checkup and vaccinations",
-    "bokDatum": "2018-11-28 9:00"
+    "bokDatum": "2018-11-28 9:00",
+    "avResa": "2018-12-03"
   },
   {
     "id": "5",
     "bokadAv": "Austin Finnagan",
     "bokningsKommentar": "This iguana's is showing signs of dementia associated with his old age",
-    "bokDatum": "2018-11-29 13:15"
+    "bokDatum": "2018-11-29 13:15",
+    "avResa": "2018-12-03"
   },
   {
     "id": "6",
     "bokadAv": "Howie Cadell",
     "bokningsKommentar": "Oddball has a hard lump on right front foot",
-    "bokDatum": "2018-11-29 10:00"
+    "bokDatum": "2018-11-29 10:00",
+    "avResa": "2018-12-03"
   },
   {
     "id": "7",
     "bokadAv": "Freya Terray",
     "bokningsKommentar": "MIllie has exhibited signs of an upset stomach and is not eating regularly",
-    "bokDatum": "2018-11-29 11:45"
+    "bokDatum": "2018-11-29 11:45",
+    "avResa": "2018-12-04"
   },
   {
     "id": "8",
     "bokadAv": "Tracy Westbay",
     "bokningsKommentar": "Fluffy has some matted hair that needs to be groomed",
-    "bokDatum": "2018-11-29 14:30"
+    "bokDatum": "2018-11-29 14:30",
+    "avResa": "2018-12-04"
   },
   {
     "id": "9",
     "bokadAv": "Sandie Gobnet",
     "bokningsKommentar": "This turtle is coming in for a checkup and to be tested for Salmonella",
-    "bokDatum": "2018-11-29 16:00"
+    "bokDatum": "2018-11-29 16:00",
+    "avResa": "2018-12-04"
   },
   {
     "id": "10",
     "bokadAv": "Nathan Cayden",
     "bokningsKommentar": "This dog is returning for his next heartworm treatment visit",
-    "bokDatum": "2018-11-29 8:30"
+    "bokDatum": "2018-11-29 8:30",
+    "avResa": "2018-12-04"
   },
   {
     "id": "11",
     "bokadAv": "Sarah Greer",
     "bokningsKommentar": "This senior dog has been sluggish and showing lethargic behavior",
-    "bokDatum": "2018-11-30 10:15"
+    "bokDatum": "2018-11-30 10:15",
+    "avResa": "2018-12-04"
   },
   {
     "id": "12",
     "bokadAv": "Madisyn Roope",
     "bokningsKommentar": "Squiggles is due for her annual checkup and vaccinations",
-    "bokDatum": "2018-11-30 11:30"
+    "bokDatum": "2018-11-30 11:30",
+    "avResa": "2018-12-05"
   },
   {
     "id": "13",
     "bokadAv": "Lisa Choy-Wu",
     "bokningsKommentar": "This cat has tartar buildup and her owner would like his teeth cleaned",
-    "bokDatum": "2018-11-30 14:30"
+    "bokDatum": "2018-11-30 14:30",
+    "avResa": "2018-12-06"
   },
   {
     "id": "14",
     "bokadAv": "Leslie Richardson",
     "bokningsKommentar": "This cat is suffering from hotspots and dermatitis",
-    "bokDatum": "2018-11-30 15:45"
+    "bokDatum": "2018-11-30 15:45",
+    "avResa": "2018-12-06"
   },
   {
     "id": "15",
     "bokadAv": "Kathlyn Zlata",
     "bokningsKommentar": "Kiko has been exhibiting excessive thirst and weight loss for the past few weeks",
-    "bokDatum": "2018-11-30 9:00"
+    "bokDatum": "2018-11-30 9:00",
+    "avResa": "2018-12-06"
   },
   {
     "id": "16",
     "bokadAv": "Francine Benet",
     "bokningsKommentar": "Felix's mom is coming in to follow up on  lab work results",
-    "bokDatum": "2018-12-1 13:00"
+    "bokDatum": "2018-12-1 13:00",
+    "avResa": "2018-12-07"
   },
   {
     "id": "17",
     "bokadAv": "Maggie Rickland",
     "bokningsKommentar": "Sami has had some changes in his bathroom in habits",
-    "bokDatum": "2018-12-1 10:00"
+    "bokDatum": "2018-12-1 10:00",
+    "avResa": "2018-12-07"
   },
   {
     "id": "18",
     "bokadAv": "Jennifer Dawson",
     "bokningsKommentar": "Cosmo's mom would like us to check for arthritic conditions and do a routine checkup",
-    "bokDatum": "2018-12-1 11:30"
+    "bokDatum": "2018-12-1 11:30",
+    "avResa": "2018-12-07"
   },
   {
     "id": "19",
     "bokadAv": "Dalania Devitto",
     "bokningsKommentar": "This dog is coming in for a nail trim and grooming",
-    "bokDatum": "2018-12-1 15:15"
+    "bokDatum": "2018-12-1 15:15",
+    "avResa": "2018-12-07"
   },
   {
     "id": "20",
     "bokadAv": "Jason Hemlock",
     "bokningsKommentar": "This fish has a spotty white patch developing on his back ",
-    "bokDatum": "2018-12-1 8:45"
+    "bokDatum": "2018-12-1 8:45",
+    "avResa": "2018-12-08"
   },
   {
     "id": "21",
     "bokadAv": "Shad Cayden",
     "bokningsKommentar": "Tibbs has had an ongoing rash and cold symptoms and we are going to run allergy tests",
-    "bokDatum": "2018-12-2 13:30"
+    "bokDatum": "2018-12-2 ",
+    "avResa": "2018-12-08"
   },
   {
     "id": "22",
     "bokadAv": "Dennis Nicholback",
     "bokningsKommentar": "Stich has been having some stomach issues and is due for his vaccinations",
-    "bokDatum": "2018-12-2 10:15"
+    "bokDatum": "2018-12-2 10:15",
+    "avResa": "2018-12-08"
   },
   {
     "id": "23",
     "bokadAv": "Audry Topsy",
     "bokningsKommentar": "This cat has a red swollen eye with a discharge",
-    "bokDatum": "2018-12-2 15:00"
+    "bokDatum": "2018-12-2 15:00",
+    "avResa": "2018-12-08"
   },
   {
     "id": "24",
     "bokadAv": "Darla Branson",
     "bokningsKommentar": "This little fish Nugget, has a rash on his stomach area",
-    "bokDatum": "2018-12-2 9:00"
+    "bokDatum": "2018-12-2 9:00",
+    "avResa": "2018-12-09"
   }
 ]
